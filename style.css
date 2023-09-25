@@ -9,10 +9,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-div {
-    border: 1px dotted red;
-}
-
 body {
     height: 100vh;
 }
@@ -71,15 +67,22 @@ body {
 .content {
     /* flex-grow: 0.7; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    background-color:rgb(245, 245, 248);
 }
 
 .footer-left {
     margin-top: auto;
 }
 
+.header,
+.footer {
+    flex-grow: 1;
+}
+
 .body {
-    height: 30vh;
+    height: 40vh;
+    background-color: #FFF;
 }
 
 .small-box {
