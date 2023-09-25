@@ -9,6 +9,20 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+    align-items: start;
+    justify-content: end;
+}
+
+.header div {
+    width: 50%;
+    font-weight: 700;
+}
+
 body {
     height: 100vh;
 }
