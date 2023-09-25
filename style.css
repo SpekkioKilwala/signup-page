@@ -23,6 +23,9 @@ body {
 
 .splash {
     flex-grow: 0.3;
+    background-image: url("/img/karsten-winegeart-g3Y6roWpMYY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {
