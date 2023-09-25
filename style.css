@@ -28,6 +28,23 @@ body {
     height: 100%;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-title {
+    font-size: 1.2em;
+    margin: 1em 0 0 2em;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+
 .banner {
     display: flex;
     flex-direction: row;
