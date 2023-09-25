@@ -80,14 +80,30 @@ body {
     flex-grow: 1;
 }
 
+button {
+    color: rgb(245, 245, 248);
+    background-color: #38679e;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8em 2.4em;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+.content a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #38679e;
+}
+
 .body {
     height: 40vh;
     background-color: #FFF;
 }
 
 .small-box {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     padding: 2em;
     gap: 1em;
 }
