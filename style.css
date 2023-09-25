@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 div {
@@ -13,4 +14,17 @@ body {
 .flex-h {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
+}
+
+.fill {
+    height: 100%;
+}
+
+.splash {
+    flex-grow: 0.3;
+}
+
+.content {
+    flex-grow: 0.7;
 }
