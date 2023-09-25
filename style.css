@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div {
@@ -14,10 +15,15 @@ body {
 .flex-h {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+}
+
+.flex-v {
+    display: flex;
+    flex-direction: column;
 }
 
 .fill {
+    align-items: stretch;
     height: 100%;
 }
 
@@ -26,8 +32,13 @@ body {
     background-image: url("/img/karsten-winegeart-g3Y6roWpMYY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: aliceblue;
 }
 
 .content {
     flex-grow: 0.7;
+}
+
+.footer {
+    margin-top: auto;
 }
