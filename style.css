@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norseFont;
+    src: url(Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -43,28 +48,43 @@ body {
 
 .banner div {
     font-size: 7em;
+    font-family: norseFont;
 }
 
 .splash {
-    flex-grow: 0.3;
+    width: 40em;
+    flex-grow: 0;
     background-image: url("/img/karsten-winegeart-g3Y6roWpMYY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
 }
 
-.splash .footer {
+.splash .footer-left {
     align-self: center;
 }
 
-.splash .footer a {
+.splash .footer-left a {
     color: aliceblue;
 }
 
 .content {
-    flex-grow: 0.7;
+    /* flex-grow: 0.7; */
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer {
+.footer-left {
     margin-top: auto;
+}
+
+.body {
+    height: 30vh;
+}
+
+.small-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
 }
