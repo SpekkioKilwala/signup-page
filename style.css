@@ -115,6 +115,7 @@ button {
     padding: 0.8em 2.4em;
     font-weight: 700;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .content a {
