@@ -28,15 +28,13 @@ body {
     height: 100%;
 }
 
-form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .form-title {
     font-size: 1.2em;
-    margin: 1em 0 0 2em;
+    margin: 1em 0 0 2em; */
+}
+
+form {
+    margin: 1em 0;
 }
 
 form label {
@@ -114,7 +112,7 @@ button {
 }
 
 .body {
-    height: 40vh;
+    /* height: 40vh; */
     background-color: #FFF;
 }
 
