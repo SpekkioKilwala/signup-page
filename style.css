@@ -27,11 +27,37 @@ body {
     height: 100%;
 }
 
+.banner {
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.5);
+    margin-top: 20vh;
+}
+
+.banner img {
+    max-height: 90%;
+}
+
+.banner div {
+    font-size: 7em;
+}
+
 .splash {
     flex-grow: 0.3;
     background-image: url("/img/karsten-winegeart-g3Y6roWpMYY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: aliceblue;
+}
+
+.splash .footer {
+    align-self: center;
+}
+
+.splash .footer a {
     color: aliceblue;
 }
 
