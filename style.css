@@ -28,19 +28,35 @@ body {
     height: 100%;
 }
 
+.content * {
+    /* border: 1px dotted red; */
+}
+
 .form-title {
     font-size: 1.2em;
-    margin: 1em 0 0 2em; */
+    /* margin: 1em 0 2em; */
+    /* padding: 1em; */
 }
 
 form {
-    margin: 1em 0;
+    /* margin: 1em 0; */
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.body {
+    /* height: 40vh; */
+    background-color: #FFF;
+    /* padding: 1em; */
 }
 
 form label {
     display: flex;
     flex-direction: column;
-    padding: 1em 2em;
+    /* padding: 1em 2em; */
+    font-size: 0.7em;
 }
 
 .banner {
@@ -109,11 +125,6 @@ button {
     text-decoration: none;
     font-weight: 700;
     color: #38679e;
-}
-
-.body {
-    /* height: 40vh; */
-    background-color: #FFF;
 }
 
 .small-box {
