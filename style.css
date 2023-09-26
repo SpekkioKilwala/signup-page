@@ -183,6 +183,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #5586be;
+}
+
 .content a {
     text-decoration: none;
     font-weight: 700;
