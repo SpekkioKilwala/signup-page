@@ -80,14 +80,17 @@ input:invalid {
     content: "test"
 } */
 
-input:invalid + span::after {
+input + span,
+input + span::after {
     color: red;
+}
+
+input:invalid + span::after {
     content: "required";
 }
 
 input:placeholder-shown + span::after,
 input:focus + span::after {
-    color: black;
     content: "";
 }
 
