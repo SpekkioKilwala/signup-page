@@ -142,7 +142,7 @@ form label {
 .splash {
     width: 40rem;
     flex-grow: 0;
-    background-image: url("/img/karsten-winegeart-g3Y6roWpMYY-unsplash.jpg");
+    background-image: url("img/karsten-winegeart-g3Y6roWpMYY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
