@@ -3,9 +3,6 @@
     src: url(Norse-Bold.otf);
 }
 
-/* I MIXED UP REM AND EM */
-/* Rem isnt "relative" it's "ROOT" */
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -83,8 +80,15 @@ input:invalid {
     content: "test"
 } */
 
-input:invalid > span {
-    content: "test";
+input:invalid + span::after {
+    color: red;
+    content: "required";
+}
+
+input:placeholder-shown + span::after,
+input:focus + span::after {
+    color: black;
+    content: "";
 }
 
 input:placeholder-shown {
