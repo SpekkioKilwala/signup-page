@@ -60,7 +60,7 @@ form {
 input {
     border: 1px solid #AAA;
     border-radius: 2px;
-    font-size: 1.2em;
+    font-size: 1.0em;
     height: 1.5em;
     width: 14em;
     transition: 0.2s;
@@ -75,8 +75,13 @@ input:invalid {
     border: 2px solid red;
 }
 
-input:invalid::after {
+/* you can't use ::after on inputs! */
+/* input:invalid::after {
+    content: "test"
+} */
 
+input:invalid > span {
+    content: "test";
 }
 
 input:placeholder-shown {
