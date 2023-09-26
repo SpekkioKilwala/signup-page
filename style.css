@@ -83,6 +83,7 @@ input:invalid {
 input + span,
 input + span::after {
     color: red;
+    font-size: 0.7rem;
 }
 
 input:invalid + span::after {
