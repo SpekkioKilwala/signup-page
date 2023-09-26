@@ -57,6 +57,14 @@ form {
     gap: 2em;
 }
 
+input::placeholder {
+    color: #AAA;
+}
+
+/* input:required {
+    border-color: red;
+} */
+
 .body {
     background-color: #FFF;
 }
