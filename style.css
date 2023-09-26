@@ -57,13 +57,29 @@ form {
     gap: 2em;
 }
 
+input {
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    font-size: 1.2em;
+    height: 1.5em;
+    width: 14em;
+}
+
 input::placeholder {
     color: #AAA;
 }
 
-/* input:required {
-    border-color: red;
-} */
+input:invalid {
+    border: 2px solid red;
+}
+
+input:placeholder-shown {
+    border: 1px solid #AAA;
+}
+
+input:focus {
+    border: 2px blue solid;
+}
 
 .body {
     background-color: #FFF;
