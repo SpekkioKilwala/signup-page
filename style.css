@@ -64,6 +64,7 @@ input {
     height: 1.5em;
     width: 14em;
     transition: 0.2s;
+    margin: 3px 0px;
 }
 
 input::placeholder {
@@ -72,6 +73,10 @@ input::placeholder {
 
 input:invalid {
     border: 2px solid red;
+}
+
+input:invalid::after {
+
 }
 
 input:placeholder-shown {
@@ -86,7 +91,7 @@ input:focus {
     /* and I think it's a Chrome built-in thing. */
     /* So I'm replacing the border rule with a glow rule. */
     /* border: 2px blue solid; */
-    box-shadow: 0px 0px 2px 3px blue;    
+    box-shadow: 0px 0px 1px 2.5px blue;    
 }
 
 .body {
